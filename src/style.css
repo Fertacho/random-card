@@ -1,5 +1,24 @@
 body {
   background-color: green;
 }
-.heart {
+.card {
+  background-color: white;
+  display: inline-block;
+  margin: auto;
+  padding: 20px;
+  width: 100px;
+  height: 150px;
+  border-radius: 5%;
+  position: relative;
+}
+top-suit {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+bottom-suit {
+  position: absolute;
+  bottom: 50;
+  right: 0;
+  float: right;
 }
