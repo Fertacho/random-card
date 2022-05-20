@@ -26,8 +26,7 @@ body {
   font-size: 40px;
 }
 
-.spade,
-.top-suit {
+.spade:after {
   content: "\2660";
 }
 .spade,
