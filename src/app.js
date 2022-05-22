@@ -26,3 +26,6 @@ function randomcard(items) {
 }
 let numeros = randomcard(numbers);
 let pintas = randomcard(suits);
+
+console.log(numeros);
+console.log(pintas);
