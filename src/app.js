@@ -1,6 +1,8 @@
 import "./style.css";
 
 window.onload = function() {
+  document.querySelector(".card").classList.add("heart");
+
   let numbers = [
     "A",
     "2",
