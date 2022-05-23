@@ -13,7 +13,7 @@ body {
   border-radius: 5%;
   position: relative;
 }
-.top-suit {
+/*.top-suit {
   position: absolute;
   top: 5px;
   left: 10px;
@@ -24,7 +24,7 @@ body {
   bottom: 5px;
   right: 10px;
   font-size: 40px;
-}
+}*/
 
 .spade:after {
   content: "\2660";
@@ -40,9 +40,35 @@ body {
   content: "\2666";
   color: red;
 }
+.spade:before {
+  content: "\2660";
+}
+.club:before {
+  content: "\2663";
+}
+.heart:before {
+  content: "\2665";
+  color: red;
+}
+.diamond:before {
+  content: "\2666";
+  color: red;
+}
 .number {
   position: absolute;
   top: 60px;
   left: 55px;
   font-size: 50px;
+}
+.card:before {
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  font-size: 40px;
+}
+.card:after {
+  position: absolute;
+  bottom: 5px;
+  right: 10px;
+  font-size: 40px;
 }
