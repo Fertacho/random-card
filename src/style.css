@@ -57,7 +57,7 @@ body {
 .number {
   position: absolute;
   top: 60px;
-  left: 55px;
+  left: 45px;
   font-size: 50px;
 }
 .card:before {

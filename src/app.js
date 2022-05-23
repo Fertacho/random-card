@@ -1,8 +1,6 @@
 import "./style.css";
 
 window.onload = function() {
-  document.querySelector(".card").classList.add("heart");
-
   let numbers = [
     "A",
     "2",
@@ -21,13 +19,14 @@ window.onload = function() {
 
   let suits = ["diamond", "heart", "club", "spade"];
 
-  let red = ["diamond", "heart"];
-
   function randomcard(items) {
     return items[Math.floor(Math.random() * items.length)];
   }
   let numeros = randomcard(numbers);
   let pintas = randomcard(suits);
+
+  document.querySelector(".card").classList.add(pintas);
+  document.querySelector(".number").innerHTML = numeros;
 
   console.log(numeros);
   console.log(pintas);
