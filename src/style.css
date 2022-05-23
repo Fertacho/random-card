@@ -29,20 +29,16 @@ body {
 .spade:after {
   content: "\2660";
 }
-.spade,
-.top-suit,
-.bottom-suit {
-  content: ♣;
+.club:after {
+  content: "\2663";
 }
-.spade,
-.top-suit,
-.bottom-suit {
-  content: ♥;
+.heart:after {
+  content: "\2665";
+  color: red;
 }
-.heart,
-.top-suit,
-.bottom-suit {
-  content: ♦;
+.diamond:after {
+  content: "\2666";
+  color: red;
 }
 .number {
   position: absolute;
